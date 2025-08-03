@@ -13,6 +13,8 @@ Projeto Java que implementa um contador de cartas para o jogo Blackjack, com int
 
 ---
 
+![1](https://github.com/bbfmc22/blackjack-card-counter/blob/main/BJGUI.png)
+
 ## Pré-requisitos
 
 - Java JDK 17+ instalado.
