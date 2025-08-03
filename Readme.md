@@ -1,29 +1,29 @@
 
 # Contador de Blackjack com Imagens
 
-Projeto Java que implementa um contador de cartas para o jogo Blackjack, com interface gráfica em Swing e tema escuro usando FlatLaf. Este programa permite gerir vários baralhos, remover cartas pelo nome, e mostra as probabilidades atualizadas das cartas restantes.
+Projeto Java que implementa um contador de cartas para o jogo Blackjack, com interface grÃ¡fica em Swing e tema escuro usando FlatLaf. Este programa permite gerir vÃ¡rios baralhos, remover cartas pelo nome, e mostra as probabilidades atualizadas das cartas restantes.
 
 ---
 
 ## Funcionalidades
 
-- Escolha do número de baralhos no início.
-- Interface gráfica moderna com tema escuro.
-- Remoção de cartas digitando o seu nome (ex: "A", "10", "J") com a remoção das cartas exibidas na interface para melhor experiência visual.
+- Escolha do nÃºmero de baralhos no inÃ­cio.
+- Interface grÃ¡fica moderna com tema escuro.
+- RemoÃ§Ã£o de cartas digitando o seu nome (ex: "A", "10", "J") com a remoÃ§Ã£o das cartas exibidas na interface para melhor experiÃªncia visual.
 
 ---
 
-## Pré-requisitos
+## PrÃ©-requisitos
 
 - Java JDK 17+ instalado.
-- [FlatLaf 3.4](https://www.formdev.com/flatlaf/) - biblioteca para tema escuro (arquivo `flatlaf-3.4.jar` incluído).
-- As imagens das cartas devem estar na pasta `PNG-cards-1.3` no mesmo diretório do executável.
+- [FlatLaf 3.4](https://www.formdev.com/flatlaf/) - biblioteca para tema escuro (arquivo `flatlaf-3.4.jar` incluÃ­do).
+- As imagens das cartas devem estar na pasta `PNG-cards-1.3` no mesmo diretÃ³rio do executÃ¡vel.
 
 ---
 
 ## Como executar
 
-1. Clone ou faça download deste repositório.
+1. Clone ou faÃ§a download deste repositÃ³rio.
 
 2. Certifique-se que tem o arquivo `flatlaf-3.4.jar` na pasta do projeto.
 
@@ -33,7 +33,7 @@ Projeto Java que implementa um contador de cartas para o jogo Blackjack, com int
    javac -cp flatlaf-3.4.jar @sources.txt
    ```
 
-4. Execute a aplicação com:
+4. Execute a aplicaÃ§Ã£o com:
 
    ```bash
    java -cp .;flatlaf-3.4.jar ContadorBlackjackUI
@@ -47,15 +47,15 @@ Projeto Java que implementa um contador de cartas para o jogo Blackjack, com int
 
 ```
 Casino/
-?
-??? src/                       # Código fonte Java e imagens
-?   ??? ContadorBlackjackUI.java
-?   ??? Baralho.java
-?   ??? Carta.java
-?   ??? PNG-cards-1.3/         # Pasta com imagens das cartas
-?   ??? flatlaf-3.4.jar
-?
-??? run.bat                    # Script para compilar e executar o projeto
+|
+||| src/                       # CÃ³digo fonte Java e imagens
+|   ||| ContadorBlackjackUI.java
+|   ||| Baralho.java
+|   ||| Carta.java
+|   ||| PNG-cards-1.3/         # Pasta com imagens das cartas
+|   ||| flatlaf-3.4.jar
+|
+||| run.bat                    # Script para compilar e executar o projeto
 ```
 
 ---
@@ -63,17 +63,12 @@ Casino/
 ## Notas
 
 - O nome das cartas deve ser digitado conforme o esperado: "2", "3", ..., "10", "J", "Q", "K", "A".
-- O programa atualiza as probabilidades após cada carta removida.
-- Para melhorar a experiência, use um terminal que suporte UTF-8 ou execute via interface gráfica.
+- O programa atualiza as probabilidades apÃ³s cada carta removida.
+- Para melhorar a experiÃªncia, use um terminal que suporte UTF-8 ou execute via interface grÃ¡fica.
 
 ---
 
 ## Autor
 
-bernaa22 — [github.com/teuusuario](https://github.com/teuusuario)
+bernaa22 â€” [github.com/teuusuario](https://github.com/teuusuario)
 
----
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
